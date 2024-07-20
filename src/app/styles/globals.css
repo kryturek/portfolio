@@ -1,0 +1,41 @@
+/* src/styles/globals.css */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: #333;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
+main {
+	padding: 2rem;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #333;
+}
+
+p {
+	font-size: 1rem;
+	color: #666;
+}

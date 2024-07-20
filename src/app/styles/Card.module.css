@@ -1,0 +1,60 @@
+/* src/components/Card.module.css */
+.card {
+	border: 1px solid #b98282;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 100%;
+	max-width: 400px;
+	color: #ddd;
+}
+
+.imageWrapper {
+	position: relative;
+	width: 100%;
+	padding-top: 60%;
+	overflow: hidden;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.cardImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cardContent {
+	padding: 1rem;
+}
+
+.cardContent h2 {
+	margin: 0 0 1rem;
+	font-size: 1.5rem;
+	color: #333;
+}
+
+.cardContent p {
+	margin: 0 0 1rem;
+	color: #666;
+}
+
+.cardContent ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cardContent li {
+	margin-bottom: 0.5rem;
+}
+
+.cardContent a {
+	color: #0070f3;
+	text-decoration: none;
+}
+
+.cardContent a:hover {
+	text-decoration: underline;
+}
