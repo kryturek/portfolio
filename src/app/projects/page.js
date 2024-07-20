@@ -4,9 +4,9 @@ import styles from "../styles/projects.module.css";
 import Card from "../components/Card";
 
 export const metadata = {
-	title: "Projects - Krystian Turek Portfolio",
+	title: "Projects - Krys Turek Portfolio",
 	description:
-		"Explore the projects developed by Krystian Turek, showcasing skills in React, JavaScript, and more.",
+		"Explore the projects developed by Krys Turek, showcasing skills in React, JavaScript, and more.",
 };
 
 export default function Projects() {

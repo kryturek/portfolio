@@ -3,9 +3,9 @@ import Head from "next/head";
 import styles from "../styles/about.module.css";
 
 export const metadata = {
-	title: "About Me - Krystian Turek Portfolio",
+	title: "About Me - Krys Turek Portfolio",
 	description:
-		"Learn more about Krystian Turek, a tech-minded professional with a strong background in management and production engineering, now pursuing a career in software development.",
+		"Learn more about Krys Turek, a tech-minded professional with a strong background in management and production engineering, now pursuing a career in software development.",
 };
 
 export default function About() {

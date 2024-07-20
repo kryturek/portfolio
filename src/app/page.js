@@ -1,16 +1,19 @@
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./styles/home.module.css";
+import { Kristi } from "next/font/google";
 
 export const metadata = {
-	title: "Home - Krystian Turek Portfolio",
+	title: "Home - Krys Turek Portfolio",
 	description:
-		"Welcome to the portfolio of Krystian Turek, an aspiring software developer.",
+		"Welcome to the portfolio of Krys Turek, an aspiring software developer.",
 };
+
+const kristi = Kristi({ subsets: ["latin"], weight: ["400"] });
 
 export default function Home() {
 	return (
-		<>
+		<div className={styles.container}>
 			<Head>
 				<title>Krystian Turek - Portfolio</title>
 				<meta
@@ -18,19 +21,20 @@ export default function Home() {
 					content="Krystian Turek's personal portfolio"
 				/>
 			</Head>
-			<h1>Welcome to My Portfolio</h1>
+			<h1 className={kristi.className}>Welcome to My Portfolio</h1>
 			<Image
 				className={styles.myPhoto}
 				src="/images/75915136.jpeg"
-				width={500}
-				height={500}
+				width={250}
+				height={250}
+				priority={true}
 			></Image>
-			<p>Hi, I'm Krystian Turek, an aspiring software developer.</p>
+			<p>Hi, I'm Krys Turek, an aspiring software developer.</p>
 			<p>
 				Be sure to check out the other sections of this website, such as my
 				projects.
 			</p>
 			<p></p>
-		</>
+		</div>
 	);
 }

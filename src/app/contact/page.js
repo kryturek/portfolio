@@ -2,9 +2,9 @@
 import Head from "next/head";
 
 export const metadata = {
-	title: "Contact - Krystian Turek Portfolio",
+	title: "Contact - Krys Turek Portfolio",
 	description:
-		"Get in touch with Krystian Turek. Contact information including phone, email, LinkedIn, and GitHub.",
+		"Get in touch with Krys Turek. Contact information including phone, email, LinkedIn, and GitHub.",
 };
 
 export default function Contact() {
