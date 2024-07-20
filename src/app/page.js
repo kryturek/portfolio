@@ -30,7 +30,7 @@ export default function Home() {
 				priority={true}
 				alt="My photo"
 			/>
-			<p>Hi, I'm Krys Turek, an aspiring software developer.</p>
+			<p>Hi, I&apos;m Krys Turek, an aspiring software developer.</p>
 			<p>
 				Be sure to check out the other sections of this website, such as my
 				projects.
