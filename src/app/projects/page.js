@@ -37,10 +37,18 @@ export default function Projects() {
 					<Card
 						imageSrc="/images/pebble.jpg"
 						title="Pebble"
-						description="A demo site based on friend's wireframes and descriptions (don't judge ME)"
-						technologies="styled-components!"
+						description="A responsive demo site based on friend's wireframes and descriptions (don't judge ME). There is no functionality."
+						technologies="Create-React-App and styled-components!"
 						liveLink="https://kryturek.github.io/pebble/"
 						codeLink="https://github.com/kryturek/pebble"
+					/>
+					<Card
+						imageSrc="/images/asteroids.jpg"
+						title="Asteroids v1.0"
+						description="An interactive simulation involving asteroids, attractors, repellers, and boulders, built using p5.js and JavaScript. Users can manipulate entities, creating a dynamic experience."
+						technologies="p5.js, JavaScript, HTML, CSS"
+						liveLink="https://kryturek.github.io/asteroids/app/"
+						codeLink="https://github.com/kryturek/asteroids"
 					/>
 				</div>
 			</div>
