@@ -1,12 +1,10 @@
 import { Inter } from "next/font/google";
-import { Afacad } from "next/font/google";
 import { Akshar } from "next/font/google";
 import { Kristi } from "next/font/google";
 import "./globals.css";
 import Layout from "./components/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
-const afacad = Afacad({ subsets: ["latin"] });
 const akshar = Akshar({ subsets: ["latin"] });
 const kristi = Kristi({ subsets: ["latin"], weight: ["400"] });
 

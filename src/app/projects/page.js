@@ -1,4 +1,3 @@
-// src/app/projects/page.js
 import Head from "next/head";
 import styles from "../styles/projects.module.css";
 import Card from "../components/Card";
@@ -19,7 +18,7 @@ export default function Projects() {
 				<h1>Projects</h1>
 				<div className={styles.grid}>
 					<Card
-						imageSrc="/images/weather-app.jpg"
+						imageSrc="/images/weather-app.png"
 						title="Weather App"
 						description="A weather application built using React, Google Maps API, and the OpenWeatherMap API. Deployed on Vercel."
 						technologies="React, JavaScript, CSS, API Integration"
@@ -27,7 +26,7 @@ export default function Projects() {
 						codeLink="https://github.com/kryturek/weather-app"
 					/>
 					<Card
-						imageSrc="/images/brainy-bites.png"
+						imageSrc="/images/brainy-bites-snip.png"
 						title="Brainy Bites"
 						description="A simple quiz app made with friends as a fun project. Over 400 questions and lots of categories to choose from."
 						technologies="HTML, CSS, plain JavaScript"
@@ -43,9 +42,9 @@ export default function Projects() {
 						codeLink="https://github.com/kryturek/pebble"
 					/>
 					<Card
-						imageSrc="/images/asteroids.jpg"
+						imageSrc="/images/asteroids-no-boulder.png"
 						title="Asteroids v1.0"
-						description="An interactive simulation involving asteroids, attractors, repellers, and boulders, built using p5.js and JavaScript. Users can manipulate entities, creating a dynamic experience."
+						description="DESKTOP ONLY! An interactive simulation involving asteroids, attractors, repellers, and boulders, built using p5.js and JavaScript. Users can manipulate entities, creating a dynamic experience."
 						technologies="p5.js, JavaScript, HTML, CSS"
 						liveLink="https://kryturek.github.io/asteroids/app/"
 						codeLink="https://github.com/kryturek/asteroids"

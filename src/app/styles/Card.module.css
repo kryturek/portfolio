@@ -1,11 +1,10 @@
-/* src/components/Card.module.css */
 .card {
-	border: 1px solid #b98282;
+	border: 2px solid #b98282;
 	border-radius: 8px;
 	overflow: hidden;
 	width: 100%;
 	max-width: 400px;
-	color: #ddd;
+	color: #bbb;
 }
 
 .imageWrapper {
@@ -33,7 +32,7 @@
 .cardContent h2 {
 	margin: 0 0 1rem;
 	font-size: 1.5rem;
-	color: #333;
+	color: #ddd;
 }
 
 .cardContent p {
@@ -57,4 +56,16 @@
 
 .cardContent a:hover {
 	text-decoration: underline;
+}
+
+@media (prefers-color-scheme: light) {
+	.cardContent h2 {
+		color: #333;
+	}
+	.cardContent p {
+		color: #777;
+	}
+	.cardContent li {
+		color: rgb(77, 77, 77);
+	}
 }

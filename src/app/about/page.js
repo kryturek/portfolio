@@ -1,4 +1,3 @@
-// src/app/about/page.js
 import Head from "next/head";
 import styles from "../styles/about.module.css";
 

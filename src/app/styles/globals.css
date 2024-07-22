@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-color: #111;
 }
 
 nav {
@@ -31,19 +32,65 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
 	color: white;
+	text-decoration: none;
 }
+
+nav a:hover {
+	text-decoration: none;
+}
+
 main {
 	padding: 2rem;
 }
 
 h1 {
 	font-size: 2rem;
-	color: #333;
+	color: #bbb;
 }
 
 p {
 	font-size: 1rem;
-	color: #666;
+	color: #999;
+}
+
+/* @media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+	}
+} */
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #ddd;
+	}
+
+	a {
+		color: #4553d4;
+	}
+
+	a:hover {
+		color: #2b5ea1;
+	}
+
+	nav {
+		background-color: #333;
+	}
+
+	nav a {
+		color: #ccc;
+	}
+
+	nav a:hover {
+		color: white;
+	}
+
+	h1,
+	h2 {
+		color: #222;
+	}
+
+	p {
+		color: #454545;
+	}
 }
