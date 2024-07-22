@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/contact.module.css";
+import "../styles/globals.css";
 
 export const metadata = {
 	title: "Contact - Krys Turek Portfolio",
