@@ -28,11 +28,16 @@ const Card = ({
 						<strong>Technologies Used:</strong> {technologies}
 					</li>
 					<li>
-						<strong>Live Site:</strong> <a href={liveLink}>View Live</a>
+						<strong>Live Site:</strong>{" "}
+						<a target="_blank" href={liveLink}>
+							View Live
+						</a>
 					</li>
 					<li>
 						<strong>GitHub Repository:</strong>{" "}
-						<a href={codeLink}>View Code</a>
+						<a target="_blank" href={codeLink}>
+							View Code
+						</a>
 					</li>
 				</ul>
 			</div>

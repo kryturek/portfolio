@@ -37,3 +37,13 @@
 	color: #666;
 	margin-bottom: 0.5rem;
 }
+
+@media (prefers-color-scheme: light) {
+	.container h1,
+	.container h2 {
+		color: #444;
+	}
+	.container p {
+		color: #777;
+	}
+}

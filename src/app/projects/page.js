@@ -49,6 +49,14 @@ export default function Projects() {
 						liveLink="https://kryturek.github.io/asteroids/app/"
 						codeLink="https://github.com/kryturek/asteroids"
 					/>
+					<Card
+						imageSrc="/images/todo-app.png"
+						title="Todo List App"
+						description="A simple React-based Todo List application with features including adding, deleting, and checking/unchecking tasks. Tasks persist in localStorage, and unchecked tasks have dynamic background colors."
+						technologies="React, JavaScript, CSS, Local Storage"
+						liveLink="https://todo-app-pi-three-35.vercel.app"
+						codeLink="https://github.com/kryturek/todo-app/"
+					/>
 				</div>
 			</div>
 		</>
