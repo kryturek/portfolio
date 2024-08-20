@@ -18,6 +18,14 @@ export default function Projects() {
 				<h1>Projects</h1>
 				<div className={styles.grid}>
 					<Card
+						imageSrc="/images/movie-db.jpeg"
+						title="Movie DB"
+						description="A movie database application that allows users to search for movies, view details, and manage their favorite collections. Includes user authentication and integration with The Movie Database (TMDB) API. Deployed on Vercel"
+						technologies="React (Vite), Node.js, Express, MongoDB, TMDB API, JWT Authentication"
+						liveLink="https://movie-db-eight-nu.vercel.app"
+						codeLink="https://github.com/kryturek/movie-db"
+					/>
+					<Card
 						imageSrc="/images/weather-app.png"
 						title="Weather App"
 						description="A weather application built using React, Google Maps API, and the OpenWeatherMap API. Deployed on Vercel."
