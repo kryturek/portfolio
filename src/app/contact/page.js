@@ -16,10 +16,10 @@ export default function Contact() {
 			</Head>
 			<div className={styles.container}>
 				<h1>Contact</h1>
-				<p>
+				{/* <p>
 					Phone:
 					<a href="tel:+4407534023436"> +4407534023436</a>
-				</p>
+				</p> */}
 				<p>
 					Email:
 					<a href="mailto:kry.turek@gmail.com"> kry.turek@gmail.com</a>
