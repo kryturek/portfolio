@@ -65,6 +65,14 @@ export default function Projects() {
 						liveLink="https://todo-app-pi-three-35.vercel.app"
 						codeLink="https://github.com/kryturek/todo-app/"
 					/>
+					<Card
+						imageSrc="/images/url-shortener.png"
+						title="URL Shortener"
+						description="A simple and fast URL shortener built with FastAPI and Vue.js. Features include instant URL shortening, unique short codes, and an intuitive UI."
+						technologies="FastAPI, Vue.js, PostgreSQL, Render"
+						liveLink="https://url-shortener-gmf0.onrender.com" 
+						codeLink="https://github.com/kryturek/url-shortener"
+					/>
 				</div>
 			</div>
 		</>
