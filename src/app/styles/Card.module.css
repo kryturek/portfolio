@@ -48,7 +48,7 @@
 	list-style-type: none;
 	padding: 0;
 	align-self: flex-start;
-	jusrify-self: flex-end;
+	justify-self: flex-end;
 }
 
 .cardContent li {
