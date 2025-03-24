@@ -18,6 +18,14 @@ export default function Projects() {
 				<h1>Projects</h1>
 				<div className={styles.grid}>
 					<Card
+						imageSrc="/images/sudoku-app.png"
+						title="Sudoku App"
+						description="An interactive Sudoku game with multiple difficulty levels, built using React and TypeScript. Features include pencil marks, error checking, a solver, and a few other things. DISCLAIMER: CAN START SLOW BECAUSE OF BACKEND ON RENDER.COM GOING TO SLEEP."
+						technologies="React (Vite), Node.js, Express, PostgreSQL, TypeScript, Python, Render"
+						liveLink="https://kryturek.github.io/sudgen-frontend/"
+						codeLink="https://github.com/kryturek/sudgen-frontend"
+					/>
+					<Card
 						imageSrc="/images/movie-db.jpeg"
 						title="Movie DB"
 						description="A movie database application that allows users to search for movies, view details, and manage their favorite collections. Includes user authentication and integration with The Movie Database (TMDB) API. Deployed on Vercel"
