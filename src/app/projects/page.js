@@ -20,8 +20,8 @@ export default function Projects() {
 					<Card
 						imageSrc="/images/sudoku-app.png"
 						title="Sudoku App"
-						description="An interactive Sudoku game with multiple difficulty levels, built using React and TypeScript. Features include pencil marks, error checking, a solver, and a few other things. DISCLAIMER: CAN START SLOW BECAUSE OF BACKEND ON RENDER.COM GOING TO SLEEP."
-						technologies="React (Vite), Node.js, Express, PostgreSQL, TypeScript, Python, Render"
+						description="An interactive Sudoku game with multiple difficulty levels, built using React and TypeScript. Features include pencil marks, error checking, a solver, and a few other things."
+						technologies="React (Vite), Node.js, Express, PostgreSQL, TypeScript, Python, Railway.app"
 						liveLink="https://kryturek.github.io/sudgen-frontend/"
 						codeLink="https://github.com/kryturek/sudgen-frontend"
 					/>
@@ -78,7 +78,7 @@ export default function Projects() {
 						title="URL Shortener"
 						description="A simple and fast URL shortener built with FastAPI and Vue.js. Features include instant URL shortening, unique short codes, and an intuitive UI."
 						technologies="FastAPI, Vue.js, PostgreSQL, Render"
-						liveLink="https://url-shortener-gmf0.onrender.com" 
+						liveLink="https://web-production-199f1.up.railway.app/" 
 						codeLink="https://github.com/kryturek/url-shortener"
 					/>
 				</div>
